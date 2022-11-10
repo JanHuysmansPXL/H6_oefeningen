@@ -8,16 +8,22 @@
 article {
     width: 300px;
     padding: 30px;
-    background-color: #f1f0f1;
+    background-color: #f1f1f1;
     border: 1px solid #2C2C2C;
+    position: relative;
 }
 
 article#box2 {
-    position: relative;
     /*  left: 50px;
     bottom: 50px;
     */
     top: -50px;
     right: -50px;
-
+    z-index: 1;
 }
+
+article#box1 {
+    z-index: 2;
+}
+
+/* Z-index - Position Relative op 'Article', niet op item zelf. */

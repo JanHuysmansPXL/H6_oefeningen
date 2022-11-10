@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Standaard is de overflow - 'Visible" */
+
+main {
+    width: 400px;
+    background-color: #ff827f;
+    padding: 50px;
+    /*  overflow: hidden; - Tekst buiten kader valt weg */
+    /*  overflow: scroll; - Tekst binnen kader kan scrollen in 2 richtingen*/
+    overflow: auto;
+}
+
