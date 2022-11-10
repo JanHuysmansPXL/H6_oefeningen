@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+nav {
+    background-color: #182983;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*  Inline-block om langs elkaar te zetten */
+
+nav ul li {
+    display: inline-block;
+}
+
+/*  Inline-block om padding en margin te kunnen zetten
+    Enkel inline geen Padding / Margin.
+*/
+
+nav ul li a {
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+

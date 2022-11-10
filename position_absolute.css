@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #2c2c2c;
+    padding: 30px;
+    position: relative;
+}
+/* Relative enkel toegevoegd om Box2 te 'Containen'
+      Parent mag niet 'Static' zijn om binnen deze absolute waarden te blijven.
+      Zonder top/ right / left of Bottom.
+  */
+
+main article {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1 ;
+    border: 1px solid #2c2c2c;
+}
+
+/* ABSOLUTE - Om een object eender waar te plaatsen op de pagina,
+niet ten opzichte van de originele positie */
+
+#box2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

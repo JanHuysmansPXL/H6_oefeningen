@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+article {
+    width: 300px;
+    padding: 30px;
+    background-color: #f1f0f1;
+    border: 1px solid #2C2C2C;
+}
+
+article#box2 {
+    position: relative;
+    /*  left: 50px;
+    bottom: 50px;
+    */
+    top: -50px;
+    right: -50px;
+
+}
