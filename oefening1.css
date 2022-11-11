@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+}
+
+h1 {
+    color: rgba(255, 60, 0, 1);
+    display: inline-block;
+    position: absolute;
+    left: 5rem;
+}
+
+#vierkant {
+    background-color: rgba(255, 60, 0, 1);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    z-index: 999;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+#vierkant2 {
+    background-color: rgba(255, 60, 0, 0.8);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    z-index: 5;
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+}
+
+#vierkant3 {
+    background-color: rgba(255, 60, 0, 0.6);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    z-index: 4;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+}
+
+#vierkant4 {
+    background-color: rgba(255, 60, 0, 0.8);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    z-index: 3;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+
+#vierkant5 {
+    background-color: rgba(255, 60, 0, 0.6);
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    z-index: 2;
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+}
+
+
+
