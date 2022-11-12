@@ -46,6 +46,10 @@ main section:first-of-type {
     height: auto;
 }
 
+main section p {
+    margin-top: 10px;
+}
+
 section article {
     background-color: #CCCCCC;
     color: #3C3C3C;
@@ -53,6 +57,26 @@ section article {
     margin: 20px auto;
     height: calc(30%);
     overflow: scroll;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: #3C3C3C;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 2;
+}
+
+footer p a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* ARTICLES BEKIJKEN MET CALC FUNCTIE*/
