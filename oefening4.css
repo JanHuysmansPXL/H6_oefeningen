@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri Light', sans-serif;
+}
+
+body {
+    background-image: url("assets/achtergrond.png");
+}
+
+main {
+    background-color: #FFF;
+    margin: 120px auto;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 960px;
+}
+
+header {
+    width: 960px;
+    background-color: #2F4F4F;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+main section {
+    height: 800px;
+}
+
+main section h3 {
+    font-weight: 600;
+}
+
+main section:first-of-type {
+    border-bottom: 1px solid #CCC;
+    height: auto;
+}
+
+section article {
+    background-color: #CCCCCC;
+    color: #3C3C3C;
+    font-weight: 300;
+    margin: 20px auto;
+    height: calc(30%);
+    overflow: scroll;
+}
+
+/* ARTICLES BEKIJKEN MET CALC FUNCTIE*/
