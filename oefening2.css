@@ -5,68 +5,55 @@
     font-family: Arial, sans-serif;
 }
 
-main {
-    width: 800px;
-    margin: 0 auto;
-}
-
-article {
-    margin: 0 auto;
-}
-
-article h1{
+header h1{
     color: rgba(30, 210, 60, 1);
     margin: 30px 0;
     font-size: 30px;
 }
 
-article div {
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+main div {
     width: 200px;
     height: 200px;
+    background-color: rgba(30, 210 , 60, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
     border-radius: .5rem;
     position: relative;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
-article div#vierkant1 {
-    background-color: rgba(30, 210 , 60, 1);
-    border: 1px solid rgba(0, 0, 0, 1);
+main div#vierkant1 {
     z-index: 5;
     top: 0;
     left: 0;
     opacity: 1;
 }
 
-article div#vierkant2 {
-    background-color: rgba(30, 210 , 60, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+main div#vierkant2 {
     z-index: 4;
     top: -180px;
     left: 20px;
     opacity: .8;
 }
 
-article div#vierkant3 {
-    background-color: rgba(30, 210 , 60, 0.6);
-    border: 1px solid rgba(0, 0, 0, 0.6);
+main div#vierkant3 {
     z-index: 3;
     top: -360px;
     left: 40px;
     opacity: .6;
 }
 
-article div#vierkant4 {
-    background-color: rgba(30, 210 , 60, 0.4);
-    border: 1px solid rgba(0, 0, 0, 0.4);
+main div#vierkant4 {
     z-index: 2;
     top: -540px;
     left: 60px;
     opacity: .4;
 }
 
-article div#vierkant5 {
-    background-color: rgba(30, 210 , 60, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+main div#vierkant5 {
     z-index: 1;
     top: -720px;
     left: 80px;

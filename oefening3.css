@@ -5,38 +5,48 @@
     font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: #CCCCCC;
+}
+
+header {
+    background-color: #FFF;
+    padding: 25px;
+    border-bottom: 3px solid #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 main {
     width: 600px;
-    background-color: #CCCCCC;
-    border-top: 4px solid black;
     margin: 120px auto 0 auto;
     overflow: auto;
 }
 
-.pokedex-card {
-    background-color: white;
-    border: 1px solid #FFF;
-    padding: .5rem 1rem;
-    height: 120px;
-    max-width: 480px;
-    border-radius: .3rem;
-    margin: 1rem auto;
-    box-shadow: 0 3px #000;
+main article {
+    background-color: #FFF;
+    border-bottom: 3px solid #000;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px 0;
     position: relative;
 }
 
-h1 {
+article h1 {
     font-size: 1.25rem;
     margin: .5rem auto;
 }
 
-.type-pill{
+main article .type-pill {
+    display: inline-block;
     color: #FFFFFF;
     font-weight: bold;
-    display: inline-block;
-    padding: .25rem 3rem .25rem 1rem;
+    padding: 5px;
+    margin: 10px 2px;
     border-radius: 5px;
-    width: 100px;
 }
 
 .type-pill.grass {
@@ -55,8 +65,7 @@ h1 {
     background-color: #8A42E1;
 }
 
-
-.pokemon-image{
+main article img {
     width: 50px;
     position: absolute;
     top: 40px;

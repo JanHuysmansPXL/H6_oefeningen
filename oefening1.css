@@ -9,78 +9,53 @@ body {
     width: 100%;
 }
 
-main {
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
-    position: relative;
+header {
+    color: rgba(255, 60, 0, 1);
+    padding: 18px;
 }
 
-h1 {
-    color: rgba(255, 60, 0, 1);
-    display: inline-block;
+main div {
+    background-color: rgba(255, 60, 0, 1);
+    width: 150px;
+    height: 150px;
+    box-shadow: #000 5px 5px 5px ;
+    border: 1px solid #000;
+    border-radius: 5px;
     position: absolute;
-    left: 5rem;
 }
 
 #vierkant {
-    background-color: rgba(255, 60, 0, 1);
-    width: 8rem;
-    height: 8rem;
-    border: 1px solid #000;
-    border-radius: .5rem;
-    z-index: 999;
-    position: absolute;
-    top: 5rem;
-    left: 5rem;
+    z-index: 5;
+    top: 70px;
+    left: 10px;
 }
 
 #vierkant2 {
-    background-color: rgba(255, 60, 0, 0.8);
-    width: 8rem;
-    height: 8rem;
-    border: 1px solid #000;
-    border-radius: .5rem;
-    z-index: 5;
-    position: absolute;
-    top: 6rem;
-    left: 6rem;
+    z-index: 4;
+    top: 90px;
+    left: 30px;
+    opacity: 0.8;
 }
 
 #vierkant3 {
-    background-color: rgba(255, 60, 0, 0.6);
-    width: 8rem;
-    height: 8rem;
-    border: 1px solid #000;
-    border-radius: .5rem;
-    z-index: 4;
-    position: absolute;
-    top: 7rem;
-    left: 7rem;
+    z-index: 3;
+    top: 110px;
+    left: 50px;
+    opacity: 0.6;
 }
 
 #vierkant4 {
-    background-color: rgba(255, 60, 0, 0.8);
-    width: 8rem;
-    height: 8rem;
-    border: 1px solid #000;
-    border-radius: .5rem;
-    z-index: 3;
-    position: absolute;
-    top: 8rem;
-    left: 8rem;
+    z-index: 2;
+    top: 130px;
+    left: 70px;
+    opacity: 0.4;
 }
 
 #vierkant5 {
-    background-color: rgba(255, 60, 0, 0.6);
-    width: 8rem;
-    height: 8rem;
-    border: 1px solid #000;
-    border-radius: .5rem;
-    z-index: 2;
-    position: absolute;
-    top: 9rem;
-    left: 9rem;
+    z-index: 1;
+    top: 150px;
+    left: 90px;
+    opacity: 0.2;
 }
 
 
