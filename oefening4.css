@@ -55,7 +55,7 @@ section article {
     color: #3C3C3C;
     font-weight: 300;
     margin: 20px auto;
-    height: calc(30%);
+    height: calc(25%);
     overflow: scroll;
 }
 
@@ -72,7 +72,7 @@ footer p {
     right: 20px;
     z-index: 2;
 }
-
+z
 footer p a {
     color: #CCCCCC;
     text-decoration: none;
