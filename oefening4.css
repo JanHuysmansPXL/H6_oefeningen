@@ -9,28 +9,32 @@ body {
     background-image: url("assets/achtergrond.png");
 }
 
-main {
-    background-color: #FFF;
-    margin: 120px auto;
-    padding: 20px;
-    border: 1px solid #CCCCCC;
-    border-radius: 10px;
-    width: 960px;
-}
-
 header {
     width: 960px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
     background-color: #2F4F4F;
-    padding: 30px;
-    margin: 0 auto;
-    border-radius: 0 0 10px 10px;
+    padding: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 header h1 {
     color: white;
-    text-transform: uppercase;
+    font-variant: small-caps;
     font-weight: 700;
     margin: 0 20px;
+}
+
+main {
+    width: 960px;
+    margin: 120px auto 0 auto;
+    background-color: #FFF;
+    padding: 25px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
 }
 
 main section {
@@ -46,37 +50,36 @@ main section:first-of-type {
     height: auto;
 }
 
-main section p {
-    margin-top: 10px;
+main section p, main article, main section h1 {
+    margin: 15px 0;
 }
 
-section article {
+main section article {
     background-color: #CCCCCC;
     color: #3C3C3C;
+    border-radius: 2px;
     font-weight: 300;
     margin: 20px auto;
-    height: calc(25%);
+    height: calc(100% / 3 - 8%);
     overflow: scroll;
 }
 
-footer {
+aside {
     position: relative;
 }
 
-footer p {
-    padding: 15px 20px;
-    border-radius: 10px 10px 0 0;
+aside a {
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: #3C3C3C;
     position: fixed;
     bottom: 0;
     right: 20px;
-    z-index: 2;
-}
-z
-footer p a {
     color: #CCCCCC;
     text-decoration: none;
     font-weight: bold;
+    z-index: 2;
 }
 
 /* ARTICLES BEKIJKEN MET CALC FUNCTIE*/
